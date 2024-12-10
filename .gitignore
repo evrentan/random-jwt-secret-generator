@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Allure report
+allure-results/
+allure-report/
+
+# Misc folders
+apps/ios/*
+apps/android/*
+video/*
+screenshots/*
+logs/*
+reports/*
+src/step-definitions/common/variables.json
+
+# WebStorm project files
+.idea/
+*.iml
+*.iws
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+out/
+
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Env files
+.env*
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+.vscode/
